@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+/* start header */
+
+.header {
+    width: 100%;
+    height: 750px;
+    /* background-color: aqua; */
+}
+
+.nav {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 35px 70px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    color: black;
+    font-size: 24px;
+    transition: 0.2 color;
+}
+
+.nav ul li a:hover {
+    color: cadetblue;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    height: 100%;
+    /* background-color: tomato; */
+    font-size: 40px;
+    padding: 10px 70px;
+    font-family: 'Caveat', cursive;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.avatar {
+    width: 50%;
+    height: 100%;
+}
+.avatar img{
+    width: 50%;
+    height: 50%;
+    margin: 100px 60px;
+    border-radius: 50%;
+}
+.about-me {
+width: 50%;
+height: 100%;
+}
+.about-me h1{
+    margin: 150px 0px 0px 60px;
+    font-size: 50px;
+    }
+    .about-me h2{
+        margin: 10px 0 0 60px;
+        }  
+.about-me a {
+    color: blue;
+    margin: 10px 0 0 60px;
+    font-size: 40px;
+    transition: 0.2s color;
+}  
+.about-me a:hover{
+    color: rgb(97, 97, 171);
+}  
+.about-me .github{
+    color: blue;
+    margin: 10px 0 0 20px;
+    font-size: 40px;
+    transition: 0.2s color;
+}
+
+/* end header */
+/* start section */
+ .projects{
+    width:100% ;
+    height: 500px;
+    background-color: #e5e5e5;
+    overflow: hidden;
+
+}
+.project-text{
+    height: 20%;
+    text-align: center;
+    margin: 50px 0;
+
+}
+.project-text h1{
+    font-size: 60px;
+}
+.project-text h1::first-letter{
+    color: cadetblue;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+}
+.item{
+    width: 20%;
+    height: 70%;
+    overflow: hidden;
+    position: relative;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    transition: 1s transform; /*hathi ta3millik animation :fait une transition visuelle de 1s de(top-right-bottom-left) de 1.1px */
+}
+.item img:hover{
+    transform: scale(1.1,1.1); /*zoom b 1.1 m chirat lkol */
+}
+.item h2{
+    position: absolute ;
+    top : -10px;
+    left: 30px;
+    font-size: 50px;
+    color: #5f9ea0;
+}
+/* end section */
+/*start contact*/
+.contact{
+    width: 100%;
+    /* height: 400px; */
+}
+.contact h1 {
+    font-size: 60px;
+    text-align: center;
+    margin:50px 0 ;
+}
+.contact h1::first-letter {
+    color: cadetblue;
+}
+
+
+form{
+    margin: auto;
+    width: 700px;
+    height: 100%;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 1px;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 1px;
+}
+button{
+    border: none;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 20px;
+    transition: 1s all;
+    
+}
+button:hover{
+    background-color: rgb(66, 110, 111);
+    cursor: pointer;
+}
+.map{
+margin-top: 30px;
+width: 100%;
+height: 460px;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: #e5e5e5;
+    text-align: center;
+}
+
